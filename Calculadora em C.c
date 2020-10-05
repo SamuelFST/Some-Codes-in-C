@@ -11,9 +11,9 @@ main(){
 	int a, b;
 	printf("\nCalculadora\n");
 	printf("\nDigite 1 para usar a calculadora\n");
-	printf("Digite 2 para conhecer os operadores suportados nessa versão\n");
+	printf("Digite 2 para conhecer os operadores suportados nessa versÃ£o\n");
 	printf("Digite 3 para sair\n"); 
-	printf("\nEscolha uma das opções: ");
+	printf("\nEscolha uma das opÃ§Ãµes: ");
 	scanf("%s",&a);
 	system("cls");
 		
@@ -44,9 +44,9 @@ main(){
 		          printf("\nPara subtrair use: -");
 		          printf("\nPara multiplicar use: *");
 		          printf("\nPara dividir use: /"); 
-				  printf("\nPara potenciação use: ^\n"); break;
+		          printf("\nPara potenciaÃ§Ã£o use: ^\n"); break;
 		          
-		case '3': printf("\nVocê escolheu sair\n"); break;
+		case '3': printf("\nVocÃª escolheu sair\n"); break;
 		
 		default: break;
 		}
